@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "image": "./assets/images/user1.jpg",
+        "name": "Carmen Tequila",
+        "nick": "carquila",
+        "hour": "3h",
+        "message":"¡Woof woof! ¡Soy un perro feliz y estoy listo para comenzar mi día! #BuenosDías #PerroFeliz",
+        "liked": true,
+        "rtdone": false,
+        "likes": 31,
+        "retweets": 12,
+        "comment": 1
+    },
+    {
+        "id": 2,
+        "image": "./assets/images/user2.jpg",
+        "name": "Bar Eando",
+        "nick": "bareando28",
+        "hour": "4h",
+        "message":"¿Alguien quiere jugar a buscar la pelota? Soy un experto en eso #BuenosDías #JuegoDePelota #PerroDivertido",
+        "liked": false,
+        "rtdone": false,
+        "likes": 11,
+        "retweets": 2,
+        "comment": 20
+    },
+    {
+        "id": 3,
+        "image": "./assets/images/user3.jpg",
+        "name": "LeVar Burton",
+        "nick": "burtonlevar",
+        "hour": "6h",
+        "message":"¡Mi humano me compró una cama nueva y es tan cómoda! #BuenosDías #DormirEsLaMejorParteDelDía #PerroDescansado",
+        "liked": true,
+        "rtdone": true,
+        "likes": 70,
+        "retweets": 24,
+        "comment": 1
+    },
+    {
+        "id": 4,
+        "image": "./assets/images/user4.jpg",
+        "name": "will.am",
+        "nick": "i.am.will",
+        "hour": "15h",
+        "message":"Hoy me fui de paseo y conocí a muchos otros perros, ¡fue muy divertido! #BuenosDías #PerroDescansado #AmigosPerrunos",
+        "liked": false,
+        "rtdone": false,
+        "likes": 2,
+        "retweets": 3,
+        "comment": 5
+    }
+]

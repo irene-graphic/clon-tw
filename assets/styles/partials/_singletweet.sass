@@ -1,0 +1,44 @@
+.column_tweets
+    @apply flex gap-4
+    @apply py-5 px-4
+    @apply border-b border-dark_gray
+    .img_frame_single
+        @apply w-auto
+        img
+            @apply object-contain rounded-full max-w-[3rem]
+    .info_tweet
+        @apply flex flex-col gap-3
+        .name_single_tweet
+            @apply flex gap-1.5 pt-1
+            span
+                @apply font-bold text-light_gray text-sm
+            p
+                @apply text-mid_gray
+        .text_content
+            @apply w-[85%]
+        .icons_single_tweet
+            @apply flex gap-10
+            @apply text-icons_gray
+            .icons
+                @apply flex items-center gap-2
+                @apply text-icons_gray text-xs
+                @apply cursor-pointer
+            .svg-icon
+                @apply w-4 h-4
+                @apply stroke-white stroke-1
+.tweets
+    @apply flex flex-col
+    @apply py-5 px-4
+    @apply p-0
+
+.liked
+    @apply fill-red_icons bg-red_icons
+
+.rtdone
+    @apply fill-red_icons bg-lime-600
+
+.likedclick
+    @apply bg-red_icons
+
+.rtclick
+    @apply bg-lime-600

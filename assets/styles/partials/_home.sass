@@ -1,0 +1,33 @@
+main 
+    @apply flex gap-7
+    .home
+        @apply flex flex-col 
+        @apply w-[31.25rem]
+        @apply border-x border-dark_gray
+        .header_titular
+            @apply flex justify-between items-center 
+            @apply p-4
+
+        .tweet_form
+            @apply flex gap-4
+            @apply border-b border-dark_gray 
+            @apply p-4
+            .img_frame
+                @apply w-auto
+                img
+                    @apply object-contain rounded-full 
+                    @apply w-10
+            form
+                @apply w-full
+                textarea
+                    @apply font-normal text-lg text-mid_gray bg-black 
+                    @apply w-full
+                    @apply resize-none outline-none 
+                .tweet_form_content
+                    @apply flex justify-between items-center
+                    .icons
+                        @apply flex gap-4
+                    .left
+                        @apply flex gap-10 items-center
+                        .charCounter
+                            @apply flex gap-4

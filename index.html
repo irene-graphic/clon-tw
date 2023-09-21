@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter</title>
+    <link rel="shortcut icon" href="assets/images/twitter_logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+  </head> 
+  <body>
+    <div class="app flex-body">
+
+      <!-- header-nav -->
+      <header>
+        <nav class="menu">
+            <li class="menu-item_logo">
+              <a href="" aria-label="Twitter">
+                <i class="fa-brands fa-twitter fa-lg" ></i>
+              </a>
+            </li>
+            <div class="list">
+            </div>
+            <button type="button" class="btn_primary">Tweet</button>
+        </nav>
+      </header>
+      <!-- / header-nav -->
+
+      <!-- main -->
+      <main>
+
+        <!-- home-tweets -->
+        <section class="home">
+
+          <div class="header_titular">
+            <h2>
+              Home
+            </h2>
+            <img src="./assets/images/brillo.svg" alt="Shine image">
+          </div>
+
+          <article class="tweet_form">
+            <div class="img_frame">
+              <img src="./assets/images/user1.jpg" alt="Foto de perfil">
+            </div>
+            <form action="" method="post">
+                <textarea class="commentArea" id="mensaje" type="text" placeholder="What´s happening"></textarea>
+              
+                <div class="tweet_form_content">
+                  <div class="icons">
+                    <a href="#">
+                      <img src="./assets/images/images.svg" alt="Upload images">
+                    </a>
+                    <a href="#">
+                      <img src="./assets/images/gif.svg" alt="Upload gif">
+                    </a>
+                  </div>
+                  <div class="left">
+                    <div class="charCounter"></div>
+                    <div class="button">Tweet</div>
+                  </div>
+                </div>
+            </form>
+          </article>
+
+          <article class="tweets"> </article>
+        </section>
+        <!-- / home-tweets -->
+
+        <!-- search-trendingtt -->
+        <section class="aside">
+          <div class="container_aside">
+
+            <div class="search">
+              <form>
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/>
+                  </svg>
+                </div>
+                <input type="search" class="input-search" name="" id="" placeholder="Buscar en Twitter">
+              </form>
+              
+            </div>
+
+            <section class="tt-card">
+              <div class="tt-tittle">
+                <span>Trending topic</span>
+              </div>
+              <div class="trending-topics-container">
+                <div class="hastag-item">
+                  <a href="#" ><i class="fa-regular fa-hashtag margin-icon fa-lg"></i>Term 01</a>
+                </div>
+              </div>
+            </section>
+
+          </div>
+        </section>
+        <!-- / search-trendingtt -->
+
+      </main>
+      <!-- /main -->
+
+    </div>
+    <!-- Script -->
+    <script src="/app/data.js"></script>
+    <script type="module" src="/app/main.js"></script>
+  </body>
+</html>

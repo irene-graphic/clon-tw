@@ -1,0 +1,30 @@
+.aside
+    @apply flex w-80 mt-1.5
+    .container_aside
+        @apply flex flex-col gap-6
+        @apply w-full
+        @apply text-white
+        .search 
+            form
+                @apply flex items-center
+                @apply gap-2 px-4 py-1
+                @apply bg-dark_gray rounded-full
+                .icon
+                    @apply w-6
+                input
+                    @apply px-2 py-3 w-[100%]
+                    @apply text-sm
+                    @apply bg-dark_gray outline-none 
+                
+
+        .tt-card
+            @apply flex flex-col gap-8
+            @apply px-3 py-6
+            @apply bg-dark_gray rounded-2xl
+            .tt-tittle
+                @apply text-base font-bold
+            .hastag-item
+                @apply flex flex-col gap-4
+                a
+                    @apply flex items-center gap-1.5
+                    @apply font-medium text-sm

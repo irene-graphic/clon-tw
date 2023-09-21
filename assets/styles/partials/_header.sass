@@ -1,0 +1,24 @@
+header
+    @apply flex
+    .menu
+        @apply flex flex-col gap-1
+        @apply text-white 
+
+        .menu-item, .menu-item_logo
+            @apply flex flex-col
+            @apply max-w-max rounded-full items-start
+            @apply transition duration-200 ease-in
+            &:hover
+                @apply bg-dark_gray
+            a
+                @apply flex items-center gap-4
+                @apply py-2.5 pr-8 pl-3
+                @apply text-lg font-bold 
+                i, img
+                    @apply w-[24px]
+
+.menu-item_logo
+    @apply w-[46px] py-3
+
+.flex-body
+    @apply flex justify-center gap-6
